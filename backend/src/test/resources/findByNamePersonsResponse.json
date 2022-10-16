@@ -1,0 +1,112 @@
+{
+  "_embedded" : {
+    "people" : [ {
+      "name" : "Homer Simpson",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png/revision/latest/scale-to-width-down/72?cb=20140126234206",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/1"
+        },
+        "person" : {
+          "href" : "http://localhost/people/1"
+        }
+      }
+    }, {
+      "name" : "John (Homer's Phobia)",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/2/28/John_Homer%27s_Phobia.png/revision/latest/scale-to-width-down/133?cb=20130726072405",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/106"
+        },
+        "person" : {
+          "href" : "http://localhost/people/106"
+        }
+      }
+    }, {
+      "name" : "Evil Homer",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/5/5d/Evilhomer.gif/revision/latest/scale-to-width-down/78?cb=20131227013745",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/264"
+        },
+        "person" : {
+          "href" : "http://localhost/people/264"
+        }
+      }
+    }, {
+      "name" : "Homer Simpson",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png/revision/latest/scale-to-width-down/58?cb=20140126234206",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/265"
+        },
+        "person" : {
+          "href" : "http://localhost/people/265"
+        }
+      }
+    }, {
+      "name" : "Homer the Thief",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/4/41/Homer_the_Theif.png/revision/latest/scale-to-width-down/97?cb=20100225232954",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/285"
+        },
+        "person" : {
+          "href" : "http://localhost/people/285"
+        }
+      }
+    }, {
+      "name" : "Homer Jr.",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/9/98/Homer_Jr.JPG/revision/latest/scale-to-width-down/74?cb=20131120205417",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/331"
+        },
+        "person" : {
+          "href" : "http://localhost/people/331"
+        }
+      }
+    }, {
+      "name" : "Robber (Homer and Apu)",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/a/af/Haa-robber.png/revision/latest/scale-to-width-down/114?cb=20100920190125",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/788"
+        },
+        "person" : {
+          "href" : "http://localhost/people/788"
+        }
+      }
+    }, {
+      "name" : "FBI Agent 2 (Homerland)",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/e/e2/FBIAgent2.png/revision/latest/scale-to-width-down/103?cb=20131114140735",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/790"
+        },
+        "person" : {
+          "href" : "http://localhost/people/790"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost/people/search/findByName?name=Homer&page=0&size=20"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 8,
+    "totalPages" : 1,
+    "number" : 0
+  }
+}

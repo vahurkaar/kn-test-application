@@ -1,0 +1,28 @@
+{
+  "_embedded" : {
+    "people" : [ {
+      "name" : "Homer Simpson",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png/revision/latest/scale-to-width-down/72?cb=20140126234206",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/1"
+        },
+        "person" : {
+          "href" : "http://localhost/people/1"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost/people/search/findByName?name=Homer&page=0&size=1"
+    }
+  },
+  "page" : {
+    "size" : 1,
+    "totalElements" : 8,
+    "totalPages" : 8,
+    "number" : 0
+  }
+}

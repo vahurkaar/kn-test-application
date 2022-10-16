@@ -1,0 +1,25 @@
+{
+  "_embedded" : {
+    "people" : [ ]
+  },
+  "_links" : {
+    "first" : {
+      "href" : "http://localhost/people/search/findByName?name=&page=0&size=20"
+    },
+    "prev" : {
+      "href" : "http://localhost/people/search/findByName?name=&page=999&size=20"
+    },
+    "self" : {
+      "href" : "http://localhost/people/search/findByName?name=&page=1000&size=20"
+    },
+    "last" : {
+      "href" : "http://localhost/people/search/findByName?name=&page=40&size=20"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 817,
+    "totalPages" : 41,
+    "number" : 1000
+  }
+}

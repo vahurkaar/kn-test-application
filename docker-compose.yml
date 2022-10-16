@@ -1,0 +1,46 @@
+version: "3.8"
+services:
+  nginx:
+    container_name: proxy
+    build: docker/docker-nginx
+    restart: always
+    ports:
+      - 8000:8000
+    links:
+      - frontend
+      - backend
+  backend:
+    container_name: backend
+    build: backend/
+    restart: always
+    ports:
+      - 8080:8080
+    depends_on:
+      - postgres
+    links:
+      - postgres:database
+    environment:
+      SPRING_DATASOURCE_DRIVER_CLASS_NAME: org.postgresql.Driver
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/kn-test
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: nE5kMc7JCGNqwDQM
+  postgres:
+    container_name: postgres
+    image: postgres:14
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_DB: kn-test
+      POSTGRES_PASSWORD: nE5kMc7JCGNqwDQM
+      POSTGRES_HOST_AUTH_METHOD: password
+  frontend:
+    container_name: frontend
+    build: frontend/
+    volumes:
+      - .:/usr/app/
+      - /usr/app/node_modules
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend

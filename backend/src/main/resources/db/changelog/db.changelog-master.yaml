@@ -1,0 +1,64 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: Vahur Kaar
+      changes:
+        - createTable:
+            tableName: person_import
+            columns:
+              - column:
+                  name: column1
+                  type: varchar(255)
+              - column:
+                  name: column2
+                  type: varchar(255)
+              - column:
+                  name: column3
+                  type: varchar(255)
+        - createTable:
+            tableName: person
+            columns:
+              - column:
+                  name: id
+                  type: integer
+                  autoIncrement: true
+                  constraints:
+                    nullable: false
+                    primaryKey: true
+              - column:
+                  name: name
+                  type: varchar(255)
+              - column:
+                  name: suffix
+                  type: varchar(255)
+              - column:
+                  name: url
+                  type: varchar(255)
+        - loadData:
+            tableName: person_import
+            separator: ','
+            encoding: UTF-8
+            file: people.csv
+            columns:
+              - column:
+                  header: name
+                  name: column1
+                  type: STRING
+              - column:
+                  header: url
+                  name: column2
+                  type: STRING
+              - column:
+                  header: extra
+                  name: column3
+                  type: STRING
+        - sql:
+            sql:
+              insert into person (name, suffix, url)
+              select
+                trim(column1),
+                trim(case when column3 != '' then column2 else null end),
+                trim(case when column3 != '' then column3 else column2 end)
+              from person_import
+        - dropTable:
+            tableName: person_import

@@ -1,0 +1,268 @@
+{
+  "_embedded" : {
+    "people" : [ {
+      "name" : "State Comptroller Atkins",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/0/0a/StateComptrollerAtkins.jpg/revision/latest/scale-to-width-down/133?cb=20091220161252",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/21"
+        },
+        "person" : {
+          "href" : "http://localhost/people/21"
+        }
+      }
+    }, {
+      "name" : "Mary Bailey",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/0/05/Mary_bailey.jpg/revision/latest/scale-to-width-down/133?cb=20120719013226",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/22"
+        },
+        "person" : {
+          "href" : "http://localhost/people/22"
+        }
+      }
+    }, {
+      "name" : "Jasper Beardly",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/0/08/Jasper_Beardly.png/revision/latest/scale-to-width-down/84?cb=20130707032356",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/23"
+        },
+        "person" : {
+          "href" : "http://localhost/people/23"
+        }
+      }
+    }, {
+      "name" : "Benjamin (nerd)",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/9/9e/BenjaminNerd.png/revision/latest/scale-to-width-down/68?cb=20170520032000",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/24"
+        },
+        "person" : {
+          "href" : "http://localhost/people/24"
+        }
+      }
+    }, {
+      "name" : "Bill (KBBL DJ)",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/b/bb/IMG_1786.PNG/revision/latest/scale-to-width-down/133?cb=20170108124103",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/25"
+        },
+        "person" : {
+          "href" : "http://localhost/people/25"
+        }
+      }
+    }, {
+      "name" : "Billy (actor)",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/e/e9/Billy_%28Actor%29.png/revision/latest/scale-to-width-down/133?cb=20110902133242",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/26"
+        },
+        "person" : {
+          "href" : "http://localhost/people/26"
+        }
+      }
+    }, {
+      "name" : "Birch Barlow",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/5/53/Birch_barlow.jpg/revision/latest/scale-to-width-down/133?cb=20070609012327",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/27"
+        },
+        "person" : {
+          "href" : "http://localhost/people/27"
+        }
+      }
+    }, {
+      "name" : "Black Weasel",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/8/88/Black_Weasel.png/revision/latest/scale-to-width-down/113?cb=20170101224739",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/28"
+        },
+        "person" : {
+          "href" : "http://localhost/people/28"
+        }
+      }
+    }, {
+      "name" : "Blue-Haired Lawyer",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/0/0b/Blue-haired_lawyer2.png/revision/latest/scale-to-width-down/49?cb=20140818031603",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/29"
+        },
+        "person" : {
+          "href" : "http://localhost/people/29"
+        }
+      }
+    }, {
+      "name" : "Patty Bouvier",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/d/d5/Patty_Bouvier1.png/revision/latest/scale-to-width-down/73?cb=20090329031750",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/30"
+        },
+        "person" : {
+          "href" : "http://localhost/people/30"
+        }
+      }
+    }, {
+      "name" : "Selma Bouvier",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/b/ba/Selma_Bouvier.png/revision/latest/scale-to-width-down/78?cb=20140826210408",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/31"
+        },
+        "person" : {
+          "href" : "http://localhost/people/31"
+        }
+      }
+    }, {
+      "name" : "Cowboy Bob",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/d/d3/Cowboy_Bob2.png/revision/latest/scale-to-width-down/133?cb=20141025140420",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/32"
+        },
+        "person" : {
+          "href" : "http://localhost/people/32"
+        }
+      }
+    }, {
+      "name" : "Robert Terwilliger",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/0/0a/Robert_Terwilliger_Tapped_Out.png/revision/latest/scale-to-width-down/80?cb=20171118020924",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/33"
+        },
+        "person" : {
+          "href" : "http://localhost/people/33"
+        }
+      }
+    }, {
+      "name" : "Booberella",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/6/66/Booberella2.png/revision/latest/scale-to-width-down/40?cb=20140817114248",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/34"
+        },
+        "person" : {
+          "href" : "http://localhost/people/34"
+        }
+      }
+    }, {
+      "name" : "Wendell Borton",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/5/59/Wendell_Borton.png/revision/latest/scale-to-width-down/64?cb=20180127034507",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/35"
+        },
+        "person" : {
+          "href" : "http://localhost/people/35"
+        }
+      }
+    }, {
+      "name" : "Brittany Brockman",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/4/4b/Kent_Brockman%27s_Daughter.JPG/revision/latest/scale-to-width-down/109?cb=20131023180906",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/36"
+        },
+        "person" : {
+          "href" : "http://localhost/people/36"
+        }
+      }
+    }, {
+      "name" : "Don Brodka",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/6/61/Don_brodka.jpg/revision/latest/scale-to-width-down/133?cb=20100425090913",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/37"
+        },
+        "person" : {
+          "href" : "http://localhost/people/37"
+        }
+      }
+    }, {
+      "name" : "Lucille Botzcowski",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/a/a6/Lucille_Botzcowski_Tapped_Out.png/revision/latest/scale-to-width-down/110?cb=20151217015347",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/38"
+        },
+        "person" : {
+          "href" : "http://localhost/people/38"
+        }
+      }
+    }, {
+      "name" : "Bumblebee Man",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/1/17/Bumblebee_Man.png/revision/latest/scale-to-width-down/78?cb=20131208162305",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/39"
+        },
+        "person" : {
+          "href" : "http://localhost/people/39"
+        }
+      }
+    }, {
+      "name" : "Larry Burns",
+      "suffix" : null,
+      "url" : "https://vignette.wikia.nocookie.net/simpsons/images/a/a7/Larry_burns.gif/revision/latest/scale-to-width-down/77?cb=20070617233210",
+      "_links" : {
+        "self" : {
+          "href" : "http://localhost/people/40"
+        },
+        "person" : {
+          "href" : "http://localhost/people/40"
+        }
+      }
+    } ]
+  },
+  "_links" : {
+    "first" : {
+      "href" : "http://localhost/people/search/findByName?name=&page=0&size=20"
+    },
+    "prev" : {
+      "href" : "http://localhost/people/search/findByName?name=&page=0&size=20"
+    },
+    "self" : {
+      "href" : "http://localhost/people/search/findByName?name=&page=1&size=20"
+    },
+    "next" : {
+      "href" : "http://localhost/people/search/findByName?name=&page=2&size=20"
+    },
+    "last" : {
+      "href" : "http://localhost/people/search/findByName?name=&page=40&size=20"
+    }
+  },
+  "page" : {
+    "size" : 20,
+    "totalElements" : 817,
+    "totalPages" : 41,
+    "number" : 1
+  }
+}
