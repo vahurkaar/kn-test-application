@@ -15,6 +15,7 @@ To build and run the backend server (was developed with JDK 17.0.3.1)
 
 To build and run the frontend server (was developed with v16.9.1)
 ```bash
+npm ci
 npm run start
 ```
 
