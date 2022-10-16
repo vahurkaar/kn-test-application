@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h1>
+      KN Test
+    </h1>
+    <person-table />
+  </div>
+</div>
+`;
