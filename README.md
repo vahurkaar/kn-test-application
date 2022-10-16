@@ -38,6 +38,11 @@ The project contains also a Docker setup, which consists of 4 containers
 - Java container for the backend
 - Database container for Postgres 14
 
+Make sure you first build the backend application
+```bash
+./gradlew build bootJar
+```
+
 To start the docker setup, please execute
 ```bash
 docker-compose up
